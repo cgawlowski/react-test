@@ -50,7 +50,7 @@ class Api::V1::EventsController < ApplicationController
   def destroy
     @event.destroy
 
-    render json: { notice: 'event was successfully removed.' }
+    render json: { notice: 'Event was successfully removed.' }
   end
 
   private
